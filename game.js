@@ -5,7 +5,7 @@ var count=false;
 var level=0;
 
 
-$(".btn").click(function(){
+$(document).keypress(function(){
 if(!count){
   $("h1").text("Level  " + level);
   nextSequence();
